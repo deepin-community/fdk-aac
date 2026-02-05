@@ -1,4 +1,4 @@
-libfdk-aac.so.2 libfdk-aac2 #MINVER#
+libfdk-aac.so.2 libfdk-aac2t64 #MINVER#
  aacDecoder_AncDataGet@Base 2.0.1
  aacDecoder_AncDataInit@Base 2.0.1
  aacDecoder_Close@Base 2.0.1

@@ -1,3 +1,7 @@
+Description: Add missing #defines for sparc and s390x.
+Author: Romain Beauxis <toots@rastageeks.org>
+Forwarded: https://github.com/mstorsjo/fdk-aac/pull/178
+
 ---
  libFDK/include/FDK_archdef.h |   16 ++++++++++++++++
  1 file changed, 16 insertions(+)
