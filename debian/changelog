@@ -1,3 +1,34 @@
+fdk-aac (2.0.3-1) unstable; urgency=medium
+
+  [ Jeremy Bicha ]
+  * debian/watch: look for tags not "releases"
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Submit.
+  * Update standards version to 4.6.2, no changes needed.
+  * Avoid explicitly specifying -Wl,--as-needed linker flag.
+
+  [ Fabian Greffrath ]
+  * New upstream version 2.0.3
+  * Add myself to Uploaders
+  * Bump debian/watch file standard to 4
+  * Add myself to Debian packaging copyright holders
+  * Add the FSF's stance on the FDK AAC license as a disclaimer to the
+    debian/copyright file
+  * Add patch description to d/p/add_more_arch
+  * Forward patch to upstream
+  * Bump Standards-Version to 4.7.1
+  * Upload to unstable
+
+ -- Fabian Greffrath <fabian@debian.org>  Fri, 28 Feb 2025 11:36:48 +0100
+
+fdk-aac (2.0.2-1.1~exp1) experimental; urgency=medium
+
+  * Non-maintainer upload.
+  * Rename libraries for 64-bit time_t transition.
+
+ -- Michael Hudson-Doyle <mwhudson@debian.org>  Thu, 01 Feb 2024 22:36:54 +0000
+
 fdk-aac (2.0.2-1) unstable; urgency=medium
 
   * Team upload

@@ -2,16 +2,20 @@ Source: fdk-aac
 Section: non-free/libs
 Priority: optional
 Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
-Uploaders: Romain Beauxis <toots@rastageeks.org>
+Uploaders: Romain Beauxis <toots@rastageeks.org>,
+ Fabian Greffrath <fabian@debian.org>
 Homepage: https://github.com/mstorsjo/fdk-aac
-Standards-Version: 4.6.0
+Standards-Version: 4.7.1
 Build-Depends: debhelper-compat (= 13)
 Vcs-Git: https://salsa.debian.org/multimedia-team/fdk-aac.git
 Vcs-Browser: https://salsa.debian.org/multimedia-team/fdk-aac
 XS-Autobuild: yes
 Rules-Requires-Root: no
 
-Package: libfdk-aac2
+Package: libfdk-aac2t64
+Provides: ${t64:Provides}
+Replaces: libfdk-aac2
+Breaks: libfdk-aac2 (<< ${source:Version})
 Architecture: any
 Multi-Arch: same
 Depends:
@@ -29,7 +33,7 @@ Architecture: any
 Multi-Arch: same
 Section: non-free/libdevel
 Depends:
- libfdk-aac2 (= ${binary:Version}),
+ libfdk-aac2t64 (= ${binary:Version}),
  pkg-config,
  ${misc:Depends}
 Description: Fraunhofer FDK AAC Codec Library - development files

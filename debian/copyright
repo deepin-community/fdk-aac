@@ -1,6 +1,22 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: fdk-aac
 Source: https://github.com/mstorsjo/fdk-aac
+Disclaimer:
+ Fraunhofer FDK AAC license
+ .
+ This is a free software license as far as it goes. It is incompatible
+ with any version of the GNU GPL.
+ .
+ It has a special danger in the form of a term expressly stating it
+ does not grant you any patent licenses, with an invitation to buy
+ some. Because of this, and because the license author is a known
+ patent aggressor, we encourage you to be careful about using or
+ redistributing software under this license: you should first consider
+ whether the licensor might aim to lure you into patent infringement.
+ If you conclude that the program is bait for a patent trap, it would
+ be wise to avoid the program.
+ .
+ <https://www.gnu.org/licenses/license-list.html.en#fdk>
 
 Files: *
 Copyright:
@@ -18,6 +34,7 @@ License: Apache-2.0
 Files: debian/*
 Copyright:
  2013 Romain Beauxis <toots@rastageeks.org>
+ 2020-2025 Fabian Greffrath <fabian@debian.org>
 License: GPL-2+
 
 License: Fraunhofer-FDK-AAC-for-Android
