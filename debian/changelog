@@ -1,3 +1,9 @@
+fdk-aac (2.0.3-1deepin1) unstable; urgency=medium
+
+  * Revert t64
+
+ -- zhaochengyi <zhaochengyi@uniontech.com>  Mon, 09 Feb 2026 11:18:31 +0800
+
 fdk-aac (2.0.3-1) unstable; urgency=medium
 
   [ Jeremy Bicha ]
